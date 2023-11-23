@@ -1,0 +1,93 @@
+.app {
+  font-size: 1.6rem;
+  @media screen and (max-width: 960px) {
+    font-size: 1.4rem;
+  }
+  .aside {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    .logo {
+      height: 3rem;
+      margin: 1rem;
+      box-sizing: border-box;
+      border-radius: 1rem;
+      padding: 0 1rem;
+      text-align: center;
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  .header {
+    background-color: #fff;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    .right {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .content {
+    padding: 10px 10px 10px 10px;
+    width: auto !important;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  //2020.2.16 add
+  .buttonMargin {
+    margin: 8px 2px 8px 8px;
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  .tagGraphContainer {
+    margin-top: 0.25em;
+  }
+
+  .codeInput {
+    width: 80%;
+  }
+
+  //2020/02/20
+  .tableContainer {
+    width: 100%;
+  }
+
+  //2020/02/21
+  //file input
+  .file {
+    position: relative;
+    display: inline-block;
+    background: #d0eeff;
+    border: 1px solid #99d3f5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1e88c7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+  }
+  .file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .file:hover {
+    background: #aadffd;
+    border-color: #78c3f3;
+    color: #004974;
+    text-decoration: none;
+  }
+}

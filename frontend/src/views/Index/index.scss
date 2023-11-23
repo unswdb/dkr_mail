@@ -1,0 +1,38 @@
+.contain {
+  width: 50%;
+  height: 50%;
+}
+
+.codeArea {
+}
+
+.container {
+  width: 38%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.graph {
+  width: 100%;
+  height: 120%;
+  float: right;
+  border: #d1d4d4 solid;
+  background-color: white;
+  overflow: auto;
+  position: relative;
+}
+
+.graphContainer {
+  border-top: #d1d4d4 solid;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  //margin-left: 6px;
+  overflow: auto;
+}
+
+.graphButtons {
+  border: none;
+  margin-right: 10px;
+}
